@@ -9,5 +9,9 @@ year=now.year
 age=input("What is your current age ?\n")
 bal=balance(age)
 centenary=year+bal
-print "You will be 100 yrs old by",centenary
+if (centenary > year):
+	print "You will be 100 yrs old by",centenary
+else:
+	print "You were 100 yrs old by",centenary
+	
 
